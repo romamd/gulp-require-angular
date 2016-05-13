@@ -28,8 +28,8 @@
     "extend": "^2.0.0",
     "buffer": "^2.7.0",
     "main-bower-files": "^2.1.0",
-    "esprima": "*",
-    "estraverse": "*"
+    "esprima": "^4.2.0",
+    "estraverse": "^4.2.0"
   },
   "devDependencies": {
     "should": "^4.0.4",
