@@ -23,20 +23,20 @@
   },
   "homepage": "https://github.com/fergaldoyle/gulp-require-angular",
   "dependencies": {
-    "gulp-util": "*",
-    "event-stream": "*",
-    "extend": "*",
-    "buffer": "*",
-    "main-bower-files": "*",
-    "esprima": "*",
-    "estraverse": "*"
+    "gulp-util": "^3.0.1",
+    "event-stream": "^3.1.7",
+    "extend": "^2.0.0",
+    "buffer": "^2.7.0",
+    "main-bower-files": "^2.1.0",
+    "esprima": "^2",
+    "estraverse": "^2"
   },
   "devDependencies": {
-    "should": "*",
-    "mocha": "*",
-    "gulp": "*",
-    "stream-assert": "*",
-    "gulp-jshint": "*",
-    "jshint-stylish": "*"
+    "should": "^4.0.4",
+    "mocha": "^1.21.5",
+    "gulp": "^3.8.8",
+    "stream-assert": "^2.0.2",
+    "gulp-jshint": "^1.8.5",
+    "jshint-stylish": "^1.0.0"
   }
 }
