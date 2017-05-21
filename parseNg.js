@@ -16,7 +16,9 @@ function pushDistinct(array, item) {
 // Find module definitions and the dependencies of those modules
 // Find module references
 function parse(source) {
-
+	if (typeof source !== 'string' && !(source instanceof String)) {
+		source = String(source);
+	}
 	var moduleDefinitions = {},
 		moduleReferences = [];
 
