@@ -22,7 +22,7 @@ function parse(source) {
 	var moduleDefinitions = {},
 		moduleReferences = [];
 
-    estraverse.traverse(esprima.parse(source), {
+    estraverse.traverse(esprima.parse(source, {jsx: true, sourceType: 'module'}), {
         leave: function (node, parent) {
 			
 			if(!isAngular(node)) {
